@@ -26,7 +26,7 @@ public class SelectMemory : MonoBehaviour
     // 해당 챕터의 선택지 수 만큼 else if문을 복사해서 쓰시면 됩니다.
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(gameObject.name == "memory1-1")
+        if (gameObject.name == "memory1-1")
         {
             PlayerPrefs.SetString("memory1", "memory1-1");
             respawnManager.SetRespawnMemory("memory1-1");

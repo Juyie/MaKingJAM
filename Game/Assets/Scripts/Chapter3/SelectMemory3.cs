@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 // 선택한 선택지를 변수에 저장하는 스크립트입니다.
 public class SelectMemory3 : MonoBehaviour
@@ -58,6 +59,22 @@ public class SelectMemory3 : MonoBehaviour
         {
             respawnManager.SetRespawnMemory("item24");
         }
+        else if (gameObject.name == "(30)") // 스테이지 끝에 있는 아이템
+        {
+            Management.staff = 3; // 0 대신 스테이지 번호
+            if (Management.staff == 3)
+            {
+                Management.cat = 3; // 0 대신 스테이지 번호
+            }
+            // using UnityEngine.SceneManagement 추가하고
+            StartCoroutine(Wait());
+        }
+    }
 
+    IEnumerator Wait()
+    {
+        Debug.Log("전환");
+        yield return new WaitForSeconds(3f);
+        SceneManager.LoadScene("Chapter1");
     }
 }
