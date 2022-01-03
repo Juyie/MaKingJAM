@@ -12,6 +12,8 @@ public class RespawnManager3 : MonoBehaviour
     [SerializeField]
     private GameObject player;
 
+    [SerializeField]
+    private GameObject cat;
 
     // 맨 처음 Scene 시작 지점을 transform으로 하는 empty object를 만들어주세요.
     // 0번 index에는 처음 시작 지점 object를 넣어주시고, 그 뒤 index에는 선택지를 순서대로 넣어주세요.
@@ -20,6 +22,11 @@ public class RespawnManager3 : MonoBehaviour
 
     void Start()
     {
+        respawnMemory = "scene3";
+        if (Management.staff == 3)
+        {
+            player = cat;
+        }
         color = player.GetComponent<SpriteRenderer>().color;
     }
 
