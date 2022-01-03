@@ -61,10 +61,13 @@ public class SelectMemory3 : MonoBehaviour
         }
         else if (gameObject.name == "(30)") // 스테이지 끝에 있는 아이템
         {
-            Management.staff = 3; // 0 대신 스테이지 번호
             if (Management.staff == 3)
             {
                 Management.cat = 3; // 0 대신 스테이지 번호
+            }
+            else
+            {
+                Management.staff = 3; // 0 대신 스테이지 번호
             }
             // using UnityEngine.SceneManagement 추가하고
             StartCoroutine(Wait());

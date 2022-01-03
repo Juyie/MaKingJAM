@@ -2,23 +2,30 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-// 부활할 때 알맞은 지점에서 부활하도록 하는 스크립트입니다.
-// 복사해서 각 스테이지 번호 붙여서 사용하세요!
 public class RespawnManager2 : MonoBehaviour
 {
     private string respawnMemory;
 
     [SerializeField]
     private GameObject player;
-    private Color color;
+
+    [SerializeField]
+    private GameObject cat;
 
     // 맨 처음 Scene 시작 지점을 transform으로 하는 empty object를 만들어주세요.
     // 0번 index에는 처음 시작 지점 object를 넣어주시고, 그 뒤 index에는 선택지를 순서대로 넣어주세요.
     [SerializeField]
     private GameObject[] respawnSpots;
 
-    void Start()
+    private Color color;
+
+    private void Start()
     {
+        respawnMemory = "scene2";
+        if (Management.staff == 3)
+        {
+            player = cat;
+        }
         color = player.GetComponent<SpriteRenderer>().color;
     }
 

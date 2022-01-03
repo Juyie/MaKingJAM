@@ -42890,6 +42890,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1853194185}
+  cat: {fileID: 561862014}
   respawnSpots:
   - {fileID: 523308288}
   - {fileID: 1062117905}
