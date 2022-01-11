@@ -88,6 +88,9 @@ public class SelectMemory1 : MonoBehaviour
 
     IEnumerator Wait()
     {
+        Debug.Log(Management.staff);
+        Debug.Log(Management.cat);
+
         yield return new WaitForSeconds(3f);
         audioSource.clip = clip;
         audioSource.Play();
