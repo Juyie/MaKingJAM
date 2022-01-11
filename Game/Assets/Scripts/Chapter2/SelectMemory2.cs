@@ -10,6 +10,12 @@ public class SelectMemory2 : MonoBehaviour
     [SerializeField]
     private RespawnManager2 respawnManager;
 
+    [SerializeField]
+    private AudioSource audioSource;
+
+    [SerializeField]
+    private AudioClip clip;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -39,9 +45,9 @@ public class SelectMemory2 : MonoBehaviour
             respawnManager.SetRespawnMemory("memory1-2");
             Management.C = 2;
         }
-        else if (gameObject.name == "item13")
+        else if (gameObject.name == "item14")
         {
-            respawnManager.SetRespawnMemory("item13");
+            respawnManager.SetRespawnMemory("item14");
         }
         else if (gameObject.name == "memory2-1")
         {
@@ -72,9 +78,13 @@ public class SelectMemory2 : MonoBehaviour
 
     IEnumerator Wait()
     {
-        Debug.Log("전환");
+        Debug.Log(Management.staff);
+        Debug.Log(Management.cat);
+
         yield return new WaitForSeconds(3f);
+        audioSource.clip = clip;
+        audioSource.Play();
+        DontDestroyOnLoad(audioSource);
         SceneManager.LoadScene("Chapter3");
-        
     }
 }
