@@ -16,10 +16,14 @@ public class SelectMemory2 : MonoBehaviour
     [SerializeField]
     private AudioClip clip;
 
+    [SerializeField]
+    private GameObject UsedEffectAudio;
+
     // Start is called before the first frame update
     void Start()
     {
-
+        UsedEffectAudio = GameObject.Find("EffectAudio1");
+        StartCoroutine(DestroyAS());
     }
 
     // Update is called once per frame
@@ -86,5 +90,11 @@ public class SelectMemory2 : MonoBehaviour
         audioSource.Play();
         DontDestroyOnLoad(audioSource);
         SceneManager.LoadScene("Chapter3");
+    }
+
+    IEnumerator DestroyAS()
+    {
+        yield return new WaitForSeconds(3f);
+        Destroy(UsedEffectAudio);
     }
 }

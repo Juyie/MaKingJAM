@@ -4182,6 +4182,7 @@ MonoBehaviour:
   respawnManager: {fileID: 1809456938}
   audioSource: {fileID: 631155832}
   clip: {fileID: 8300000, guid: ad27e828e00934ac6ac9254f6166fb5c, type: 3}
+  UsedEffectAudio: {fileID: 0}
 --- !u!114 &242017382
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9470,6 +9471,7 @@ MonoBehaviour:
   respawnManager: {fileID: 1809456938}
   audioSource: {fileID: 631155832}
   clip: {fileID: 8300000, guid: ad27e828e00934ac6ac9254f6166fb5c, type: 3}
+  UsedEffectAudio: {fileID: 0}
 --- !u!114 &425113501
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11324,7 +11326,7 @@ GameObject:
   - component: {fileID: 631155833}
   - component: {fileID: 631155832}
   m_Layer: 0
-  m_Name: Effect Audio
+  m_Name: EffectAudio2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14807,6 +14809,7 @@ MonoBehaviour:
   respawnManager: {fileID: 1809456938}
   audioSource: {fileID: 631155832}
   clip: {fileID: 8300000, guid: ad27e828e00934ac6ac9254f6166fb5c, type: 3}
+  UsedEffectAudio: {fileID: 0}
 --- !u!114 &867880867
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18877,6 +18880,7 @@ MonoBehaviour:
   respawnManager: {fileID: 1809456938}
   audioSource: {fileID: 631155832}
   clip: {fileID: 8300000, guid: ad27e828e00934ac6ac9254f6166fb5c, type: 3}
+  UsedEffectAudio: {fileID: 0}
 --- !u!1 &1305801951
 GameObject:
   m_ObjectHideFlags: 0
@@ -29031,6 +29035,7 @@ MonoBehaviour:
   respawnManager: {fileID: 1809456938}
   audioSource: {fileID: 0}
   clip: {fileID: 0}
+  UsedEffectAudio: {fileID: 0}
 --- !u!1 &1569228523
 GameObject:
   m_ObjectHideFlags: 0
@@ -30116,6 +30121,7 @@ MonoBehaviour:
   respawnManager: {fileID: 1809456938}
   audioSource: {fileID: 631155832}
   clip: {fileID: 8300000, guid: ad27e828e00934ac6ac9254f6166fb5c, type: 3}
+  UsedEffectAudio: {fileID: 0}
 --- !u!1 &1628277801
 GameObject:
   m_ObjectHideFlags: 0
@@ -32895,6 +32901,7 @@ MonoBehaviour:
   respawnManager: {fileID: 1809456938}
   audioSource: {fileID: 631155832}
   clip: {fileID: 8300000, guid: ad27e828e00934ac6ac9254f6166fb5c, type: 3}
+  UsedEffectAudio: {fileID: 0}
 --- !u!114 &1856414801
 MonoBehaviour:
   m_ObjectHideFlags: 0
