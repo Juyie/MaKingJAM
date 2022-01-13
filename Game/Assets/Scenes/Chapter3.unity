@@ -168,6 +168,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5793970fefc17ad4c9aaf2fb5162a676, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 144288019}
+  clip: {fileID: 8300000, guid: affcddb8d59cb4156962a20db9649c8e, type: 3}
 --- !u!61 &3666563
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -437,6 +439,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5793970fefc17ad4c9aaf2fb5162a676, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 144288019}
+  clip: {fileID: 8300000, guid: affcddb8d59cb4156962a20db9649c8e, type: 3}
 --- !u!1 &45093465
 GameObject:
   m_ObjectHideFlags: 0
@@ -555,6 +559,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5793970fefc17ad4c9aaf2fb5162a676, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 144288019}
+  clip: {fileID: 8300000, guid: affcddb8d59cb4156962a20db9649c8e, type: 3}
 --- !u!61 &54123041
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -819,6 +825,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5793970fefc17ad4c9aaf2fb5162a676, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 144288019}
+  clip: {fileID: 8300000, guid: affcddb8d59cb4156962a20db9649c8e, type: 3}
 --- !u!61 &74135768
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1035,6 +1043,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5793970fefc17ad4c9aaf2fb5162a676, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 144288019}
+  clip: {fileID: 8300000, guid: affcddb8d59cb4156962a20db9649c8e, type: 3}
 --- !u!1 &86574781
 GameObject:
   m_ObjectHideFlags: 0
@@ -2149,6 +2159,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5793970fefc17ad4c9aaf2fb5162a676, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 144288019}
+  clip: {fileID: 8300000, guid: affcddb8d59cb4156962a20db9649c8e, type: 3}
 --- !u!61 &181737612
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2421,6 +2433,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5793970fefc17ad4c9aaf2fb5162a676, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 144288019}
+  clip: {fileID: 8300000, guid: affcddb8d59cb4156962a20db9649c8e, type: 3}
 --- !u!61 &210655899
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3992,6 +4006,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5793970fefc17ad4c9aaf2fb5162a676, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 144288019}
+  clip: {fileID: 8300000, guid: affcddb8d59cb4156962a20db9649c8e, type: 3}
 --- !u!61 &325741341
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4292,6 +4308,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5793970fefc17ad4c9aaf2fb5162a676, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 144288019}
+  clip: {fileID: 8300000, guid: affcddb8d59cb4156962a20db9649c8e, type: 3}
 --- !u!61 &359940177
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5819,6 +5837,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5793970fefc17ad4c9aaf2fb5162a676, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 144288019}
+  clip: {fileID: 8300000, guid: affcddb8d59cb4156962a20db9649c8e, type: 3}
 --- !u!61 &464763817
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6147,6 +6167,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5793970fefc17ad4c9aaf2fb5162a676, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 144288019}
+  clip: {fileID: 8300000, guid: affcddb8d59cb4156962a20db9649c8e, type: 3}
 --- !u!61 &501461113
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14893,6 +14915,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5793970fefc17ad4c9aaf2fb5162a676, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 144288019}
+  clip: {fileID: 8300000, guid: affcddb8d59cb4156962a20db9649c8e, type: 3}
 --- !u!61 &761645206
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15142,6 +15166,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5793970fefc17ad4c9aaf2fb5162a676, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 144288019}
+  clip: {fileID: 8300000, guid: affcddb8d59cb4156962a20db9649c8e, type: 3}
 --- !u!1 &772242049
 GameObject:
   m_ObjectHideFlags: 0
@@ -16720,6 +16746,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5793970fefc17ad4c9aaf2fb5162a676, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 144288019}
+  clip: {fileID: 8300000, guid: affcddb8d59cb4156962a20db9649c8e, type: 3}
 --- !u!61 &849751951
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16936,6 +16964,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5793970fefc17ad4c9aaf2fb5162a676, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 144288019}
+  clip: {fileID: 8300000, guid: affcddb8d59cb4156962a20db9649c8e, type: 3}
 --- !u!1 &881305341
 GameObject:
   m_ObjectHideFlags: 0
@@ -17274,6 +17304,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5793970fefc17ad4c9aaf2fb5162a676, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 144288019}
+  clip: {fileID: 8300000, guid: affcddb8d59cb4156962a20db9649c8e, type: 3}
 --- !u!212 &905304779
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17570,6 +17602,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5793970fefc17ad4c9aaf2fb5162a676, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 144288019}
+  clip: {fileID: 8300000, guid: affcddb8d59cb4156962a20db9649c8e, type: 3}
 --- !u!61 &964125875
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17989,6 +18023,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5793970fefc17ad4c9aaf2fb5162a676, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 144288019}
+  clip: {fileID: 8300000, guid: affcddb8d59cb4156962a20db9649c8e, type: 3}
 --- !u!61 &1001573370
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18624,6 +18660,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5793970fefc17ad4c9aaf2fb5162a676, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 144288019}
+  clip: {fileID: 8300000, guid: affcddb8d59cb4156962a20db9649c8e, type: 3}
 --- !u!61 &1024439734
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19271,6 +19309,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5793970fefc17ad4c9aaf2fb5162a676, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 144288019}
+  clip: {fileID: 8300000, guid: affcddb8d59cb4156962a20db9649c8e, type: 3}
 --- !u!1 &1091904384
 GameObject:
   m_ObjectHideFlags: 0
@@ -19599,6 +19639,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5793970fefc17ad4c9aaf2fb5162a676, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 144288019}
+  clip: {fileID: 8300000, guid: affcddb8d59cb4156962a20db9649c8e, type: 3}
 --- !u!1 &1106052112
 GameObject:
   m_ObjectHideFlags: 0
@@ -19740,6 +19782,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5793970fefc17ad4c9aaf2fb5162a676, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 144288019}
+  clip: {fileID: 8300000, guid: affcddb8d59cb4156962a20db9649c8e, type: 3}
 --- !u!61 &1115471047
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20272,6 +20316,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5793970fefc17ad4c9aaf2fb5162a676, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 144288019}
+  clip: {fileID: 8300000, guid: affcddb8d59cb4156962a20db9649c8e, type: 3}
 --- !u!61 &1181075347
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20395,6 +20441,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5793970fefc17ad4c9aaf2fb5162a676, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 144288019}
+  clip: {fileID: 8300000, guid: affcddb8d59cb4156962a20db9649c8e, type: 3}
 --- !u!61 &1205651971
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20518,6 +20566,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5793970fefc17ad4c9aaf2fb5162a676, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 144288019}
+  clip: {fileID: 8300000, guid: affcddb8d59cb4156962a20db9649c8e, type: 3}
 --- !u!61 &1217340455
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23437,6 +23487,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5793970fefc17ad4c9aaf2fb5162a676, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 144288019}
+  clip: {fileID: 8300000, guid: affcddb8d59cb4156962a20db9649c8e, type: 3}
 --- !u!61 &1417562778
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -24124,6 +24176,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5793970fefc17ad4c9aaf2fb5162a676, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 144288019}
+  clip: {fileID: 8300000, guid: affcddb8d59cb4156962a20db9649c8e, type: 3}
 --- !u!61 &1434841800
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -25612,6 +25666,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5793970fefc17ad4c9aaf2fb5162a676, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 144288019}
+  clip: {fileID: 8300000, guid: affcddb8d59cb4156962a20db9649c8e, type: 3}
 --- !u!61 &1567910394
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -25891,6 +25947,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5793970fefc17ad4c9aaf2fb5162a676, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 144288019}
+  clip: {fileID: 8300000, guid: affcddb8d59cb4156962a20db9649c8e, type: 3}
 --- !u!61 &1613340192
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -26180,6 +26238,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5793970fefc17ad4c9aaf2fb5162a676, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 144288019}
+  clip: {fileID: 8300000, guid: affcddb8d59cb4156962a20db9649c8e, type: 3}
 --- !u!61 &1624259612
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -27258,6 +27318,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5793970fefc17ad4c9aaf2fb5162a676, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 144288019}
+  clip: {fileID: 8300000, guid: affcddb8d59cb4156962a20db9649c8e, type: 3}
 --- !u!61 &1732029165
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -27731,6 +27793,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5793970fefc17ad4c9aaf2fb5162a676, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 144288019}
+  clip: {fileID: 8300000, guid: affcddb8d59cb4156962a20db9649c8e, type: 3}
 --- !u!61 &1770796854
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -27854,6 +27918,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5793970fefc17ad4c9aaf2fb5162a676, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 144288019}
+  clip: {fileID: 8300000, guid: affcddb8d59cb4156962a20db9649c8e, type: 3}
 --- !u!61 &1788278121
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -34364,6 +34430,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5793970fefc17ad4c9aaf2fb5162a676, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 144288019}
+  clip: {fileID: 8300000, guid: affcddb8d59cb4156962a20db9649c8e, type: 3}
 --- !u!61 &1967656922
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -34487,6 +34555,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5793970fefc17ad4c9aaf2fb5162a676, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 144288019}
+  clip: {fileID: 8300000, guid: affcddb8d59cb4156962a20db9649c8e, type: 3}
 --- !u!61 &1993994212
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -34610,6 +34680,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5793970fefc17ad4c9aaf2fb5162a676, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 144288019}
+  clip: {fileID: 8300000, guid: affcddb8d59cb4156962a20db9649c8e, type: 3}
 --- !u!61 &2000312146
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -35077,6 +35149,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5793970fefc17ad4c9aaf2fb5162a676, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 144288019}
+  clip: {fileID: 8300000, guid: affcddb8d59cb4156962a20db9649c8e, type: 3}
 --- !u!61 &2049804356
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -35443,6 +35517,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5793970fefc17ad4c9aaf2fb5162a676, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 144288019}
+  clip: {fileID: 8300000, guid: affcddb8d59cb4156962a20db9649c8e, type: 3}
 --- !u!61 &2116267430
 BoxCollider2D:
   m_ObjectHideFlags: 0
